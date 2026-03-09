@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateEventDto } from './dto/create-event.dto';
 
-interface EventEntity {
+export interface EventEntity {
   id: string;
   name: string;
   date: string;
