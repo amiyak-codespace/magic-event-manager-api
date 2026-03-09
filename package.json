@@ -1,0 +1,30 @@
+{
+  "name": "magic-event-manager-api",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nest build",
+    "start:prod": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\""
+  },
+  "dependencies": {
+    "@nestjs/core": "latest",
+    "@nestjs/common": "latest",
+    "@nestjs/platform-express": "latest",
+    "@nestjs/mapped-types": "latest",
+    "@nestjs/config": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest",
+    "class-validator": "latest",
+    "class-transformer": "latest"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "latest",
+    "@nestjs/schematics": "latest",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "ts-node": "latest",
+    "@types/express": "latest",
+    "tsconfig-paths": "latest"
+  }
+}
